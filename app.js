@@ -28,7 +28,7 @@ const products = [
     name:"Naruto Poster",
     price:49,
     category:"poster",
-    image:"./image/naruto-poster.jpg"
+    image:"Naruto Poster.jpg"
   },
 
   {
@@ -44,7 +44,7 @@ const products = [
     name:"Demon Slayer Poster",
     price:49,
     category:"poster",
-    image:"Saisho-Kara-Store/Demon Slayer Poster.jpg"
+    image:"Demon Slayer Poster.jpg"
   },
 
   {
@@ -52,7 +52,7 @@ const products = [
     name:"Luffy Wanted Poster",
     price:49,
     category:"poster",
-    image:"Image/Luffy.jpg"
+    image:"Luffy.jpg"
   },
 
   {
@@ -60,7 +60,7 @@ const products = [
     name:"one Piece Poster",
     price:49,
     category:"poster",
-    image:"Image/One Piece Poster.jpg"
+    image:"One Piece Poster.jpg"
   },
 
   {
@@ -68,7 +68,7 @@ const products = [
     name:"Pikachu Figure",
     price:199,
     category:"figure",
-    image:"Image/Pikachu figure.jpeg"
+    image:"Pikachu figure.jpeg"
   },
 
    {
@@ -76,7 +76,7 @@ const products = [
     name:"Sakuna Figure",
     price:799,
     category:"figure",
-    image:"Image/Sakuna Figure.jpg"
+    image:"Sakuna Figure.jpg"
   },
 
    {
@@ -84,7 +84,7 @@ const products = [
     name:"Obito Figure",
     price:799,
     category:"figure",
-    image:"Image/Obito Figure.jpg"
+    image:"Obito Figure.jpg"
   },
 
    {
@@ -92,7 +92,7 @@ const products = [
     name:"Denji Figure",
     price:799,
     category:"figure",
-    image:"Image/Denji Figure.jpg"
+    image:"Denji Figure.jpg"
   },
 
   {
@@ -100,7 +100,7 @@ const products = [
     name:"Watakoi Manga",
     price:599,
     category:"manga",
-    image:"Image/Watakoi.jpg"
+    image:"Watakoi.jpg"
   },
 
   {
@@ -108,7 +108,7 @@ const products = [
     name:"Image/Love is war Manga",
     price:599,
     category:"manga",
-    image:"Image/Love is war.jpg"
+    image:"Love is war.jpg"
   },
 
   {
@@ -116,7 +116,7 @@ const products = [
     name:"White Katana",
     price:1499,
     category:"Katana",
-    image:"Image/White Katana.jpg"
+    image:"White Katana.jpg"
   },
 
    {
@@ -124,7 +124,7 @@ const products = [
     name:"Red Katana",
     price:1499,
     category:"Katana",
-    image:"Image/Red Katana.jpg"
+    image:"Red Katana.jpg"
   },
 
   {
@@ -132,7 +132,7 @@ const products = [
     name:"Keychain",
     price:49,
     category:"Keychain",
-    image:"Image/Keychain 01.png"
+    image:"Keychain 01.png"
   },
 
    {
@@ -140,7 +140,7 @@ const products = [
     name:"Keychain",
     price:49,
     category:"Keychain",
-    image:"Image/keychain 02.png"
+    image:"keychain 02.png"
   },
 
   {
@@ -148,7 +148,7 @@ const products = [
     name:"Anya Sticker",
     price:10,
     category:"Sticker",
-    image:"Image/Anya Sticker.png"
+    image:"Anya Sticker.png"
   },
 
    {
@@ -156,7 +156,7 @@ const products = [
     name:"Gojo Sticker",
     price:10,
     category:"Sticker",
-    image:"Image/Gojo Sticker.png"
+    image:"Gojo Sticker.png"
   },
 
    {
@@ -164,7 +164,7 @@ const products = [
     name:"Demon Slayer Sticker",
     price:10,
     category:"Sticker",
-    image:"Image/Demon Slayer Sticker.png"
+    image:"Demon Slayer Sticker.png"
   },
 
 ];
