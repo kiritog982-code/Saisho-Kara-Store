@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Saisho Kara Store</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- GOOGLE FONT -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <!-- NAVBAR -->
+
+  <header class="navbar">
+
+    <div class="nav-right">
+
+      <button class="cart-icon" id="openCart">
+        🛒 <span id="cart-count">0</span>
+      </button>
+
+      <div class="menu-btn" id="menu-btn">
+        ☰
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- SHOP -->
+
+  <section class="shop-section" id="shop">
+
+    <div class="section-title">
+
+      <h2>SAISHO KARA STORE</h2>
+
+      <p>Search Your Favorite Merch</p>
+
+    </div>
+
+    <!-- FILTERS -->
+
+    <div class="shop-controls">
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search anime merch..."
+      >
+
+      <select id="categoryFilter">
+
+        <option value="all">All Categories</option>
+        <option value="Katana">Katana</option>
+        <option value="poster">Poster</option>
+        <option value="figure">Figure</option>
+        <option value="manga">Manga</option>
+        <option value="Sticker">Sticker</option>
+       <option value="Keychain">Keychain</option>
+
+      </select>
+
+      <select id="sortFilter">
+
+        <option value="default">Sort By</option>
+        <option value="low-high">Price Low To High</option>
+        <option value="high-low">Price High To Low</option>
+
+      </select>
+
+    </div>
+
+    <!-- PRODUCTS -->
+
+    <div class="product-grid" id="productsGrid"></div>
+
+  </section>
+
+ <!-- WHATSAPP GROUP -->
+
+<section class="newsletter-section">
+
+  <div class="newsletter-box">
+
+    <h2>Join SKS WhatsApp Group</h2>
+
+    <p>
+      Get latest anime merch updates, offers, and new drops.
+    </p>
+
+    <a
+      href="https://chat.whatsapp.com/C3CDr6gkxMJ7A0tJS6GoBG?mode=gi_t"
+      target="_blank"
+      class="whatsapp-btn"
+    >
+      Join Now
+    </a>
+
+  </div>
+
+</section>
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <div class="footer-content">
+
+      <h2>Saisho Kara Store</h2>
+
+      <p>
+        Premium Anime Merchandise Store
+      </p>
+
+      <div class="social-links">
+
+        <a href="https://www.instagram.com/saisho_kara_store?igsh=MjAwYWV4Z2xzaDE1">Instagram</a>
+        <a href="https://www.facebook.com/share/1AFo9Pbykt/">facebook</a>
+        <a href="https://youtube.com/@saisho_kara_store?si=Zl7p9V_6JzdEa8wb">YouTube</a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <!-- CART DRAWER -->
+
+  <div class="cart-drawer" id="cartDrawer">
+
+    <div class="cart-header">
+
+      <h2>Your Cart</h2>
+
+      <button id="closeCart">✕</button>
+
+    </div>
+
+    <div class="cart-items" id="cartItems"></div>
+
+    <div class="cart-footer">
+
+      <h3>
+        Total: ₹<span id="cartTotal">0</span>
+      </h3>
+
+      <button class="checkout-btn">
+        Checkout
+      </button>
+
+    </div>
+
+  </div>
+
+  <!-- JS -->
+
+  <script src="app.js"></script>
+
+</body>
+</html>

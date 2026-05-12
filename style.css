@@ -1,0 +1,463 @@
+/* =========================
+   SAISHO KARA STORE CSS
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Orbitron',sans-serif;
+    background:#050816;
+    color:white;
+    overflow-x:hidden;
+}
+
+/* GLOBAL */
+
+section{
+    padding:80px 6%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:55px;
+}
+
+.section-title h2{
+    font-size:2.8rem;
+    color:#00f7ff;
+    margin-bottom:12px;
+    text-shadow:0 0 12px #00f7ff;
+}
+
+.section-title p{
+    color:#aaa;
+    font-size:1rem;
+}
+
+.cart-icon{
+    padding:18px 20px;
+    border:none;
+    border-radius:20px;
+    background:#8b00ff;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:2rem;
+}
+
+.cart-icon:hover{
+    box-shadow:0 0 20px #8b00ff;
+}
+
+.menu-btn{
+    display:none;
+    font-size:4rem;
+    cursor:pointer;
+}
+
+.hero{
+    height:220px;
+
+    background:#050816;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding-top:80px;
+}
+/* SHOP FILTERS */
+
+.shop-controls{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    flex-wrap:wrap;
+    margin-bottom:50px;
+}
+
+.shop-controls input,
+.shop-controls select{
+    padding:15px 18px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#101827;
+
+    color:white;
+
+    outline:none;
+
+    min-width:240px;
+
+    font-size:0.95rem;
+}
+
+/* PRODUCT GRID */
+
+.product-grid{
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(420px,420px));
+
+    justify-content:center;
+
+    gap:35px;
+}
+
+/* PRODUCT CARD */
+
+.product-card{
+    width:420px;
+
+    background:#0b1220;
+
+    border:1px solid rgba(255,255,255,0.08);
+
+    border-radius:28px;
+
+    overflow:hidden;
+
+    transition:0.3s;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:space-between;
+}
+
+.product-card:hover{
+    transform:translateY(-8px);
+
+    box-shadow:0 0 28px rgba(0,247,255,0.25);
+}
+
+/* PRODUCT IMAGE */
+
+.product-card img{
+    width:100%;
+
+    height:420px;
+
+    object-fit:cover;
+
+    display:block;
+
+    background:#111827;
+}
+
+/* PRODUCT INFO */
+
+.product-info{
+    padding:24px;
+}
+
+.product-info h3{
+    font-size:1.4rem;
+
+    margin-bottom:14px;
+
+    white-space:nowrap;
+
+    overflow:hidden;
+
+    text-overflow:ellipsis;
+}
+
+.price{
+    color:#00f7ff;
+
+    margin-bottom:22px;
+
+    font-size:1.2rem;
+}
+
+/* ADD TO CART BUTTON */
+
+.cart-btn{
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#a100ff;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+    font-size:1rem;
+
+    font-weight:600;
+}
+
+.cart-btn:hover{
+    box-shadow:0 0 18px #a100ff;
+}
+
+/* NEWSLETTER */
+
+.newsletter-box{
+    max-width:900px;
+
+    margin:auto;
+
+    background:#0b1220;
+
+    padding:70px 35px;
+
+    border-radius:30px;
+
+    text-align:center;
+}
+
+.newsletter-box h2{
+    color:#00f7ff;
+    font-size:2rem;
+}
+
+.newsletter-box p{
+    margin:22px 0;
+    color:#bbb;
+    font-size:1rem;
+}
+
+.newsletter-box form{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+.newsletter-box input{
+    padding:16px;
+    width:320px;
+    border:none;
+    border-radius:12px;
+}
+
+.newsletter-box button{
+    padding:16px 24px;
+    border:none;
+    border-radius:12px;
+    background:#8b00ff;
+    color:white;
+    cursor:pointer;
+}
+
+.whatsapp-btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:14px 28px;
+  background:#25D366;
+  color:white;
+  border-radius:12px;
+  font-size:16px;
+  transition:0.3s;
+}
+
+.whatsapp-btn:hover{
+  transform:translateY(-3px);
+}
+
+/* FOOTER */
+
+.footer{
+    background:#03050b;
+    text-align:center;
+    padding:50px 6%;
+}
+
+.social-links{
+    margin-top:22px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:24px;
+
+    flex-wrap:wrap;
+}
+
+.social-links a{
+    color:#00f7ff;
+    text-decoration:none;
+}
+
+/* CART DRAWER */
+
+.cart-drawer{
+    position:fixed;
+
+    top:0;
+    right:-450px;
+
+    width:420px;
+    height:100vh;
+
+    background:#0f172a;
+
+    transition:0.4s;
+
+    z-index:2000;
+
+    display:flex;
+    flex-direction:column;
+}
+
+.cart-drawer.active{
+    right:0;
+}
+
+.cart-header{
+    padding:22px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    border-bottom:
+    1px solid rgba(255,255,255,0.1);
+}
+
+.cart-items{
+    flex:1;
+
+    overflow-y:auto;
+
+    padding:20px;
+}
+
+.cart-item{
+    display:flex;
+
+    gap:15px;
+
+    background:#111827;
+
+    padding:12px;
+
+    border-radius:14px;
+
+    margin-bottom:18px;
+}
+
+.cart-item img{
+    width:90px;
+    height:90px;
+
+    object-fit:cover;
+
+    border-radius:12px;
+}
+
+.cart-footer{
+    padding:22px;
+
+    border-top:
+    1px solid rgba(255,255,255,0.1);
+}
+
+.checkout-btn{
+    width:100%;
+
+    padding:16px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#00f7ff;
+
+    color:black;
+
+    margin-top:16px;
+
+    cursor:pointer;
+
+    font-weight:600;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+    .nav-links{
+        position:absolute;
+
+        top:80px;
+
+        right:-100%;
+
+        width:250px;
+
+        height:100vh;
+
+        background:#111827;
+
+        flex-direction:column;
+
+        padding:40px 20px;
+
+        transition:0.4s;
+    }
+
+    .nav-links.active{
+        right:0;
+    }
+
+    .menu-btn{
+        display:block;
+    }
+
+    .hero-content h1{
+        font-size:2.8rem;
+    }
+
+    .hero-content p{
+        font-size:1rem;
+    }
+
+    .cart-drawer{
+        width:100%;
+    }
+
+    .product-grid{
+        grid-template-columns:1fr;
+    }
+
+    .product-card{
+        width:100%;
+        max-width:420px;
+    }
+
+    .featured-grid{
+        grid-template-columns:1fr;
+    }
+
+    .featured-card{
+        width:100%;
+        max-width:420px;
+    }
+
+}
