@@ -24,14 +24,6 @@ if(menuBtn && navLinks){
 const products = [
 
   {
-    id:1,
-    name:"Naruto Poster",
-    price:49,
-    category:"poster",
-    image:"Naruto Poster.jpg"
-  },
-
-  {
     id:2,
     name:"Boa Wanted Poster",
     price:49,
