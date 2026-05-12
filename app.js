@@ -28,7 +28,7 @@ const products = [
     name:"Naruto Poster",
     price:49,
     category:"poster",
-    image:"Image/NarutoPoster.jpg"
+    image:"./Image/Naruto Poster.jpg"
   },
 
   {
