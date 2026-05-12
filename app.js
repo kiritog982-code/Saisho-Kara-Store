@@ -36,7 +36,7 @@ const products = [
     name:"Boa Wanted Poster",
     price:49,
     category:"poster",
-    image:"./Boa Poster.jpg"
+    image:"Boa Poster.jpg"
   },
 
   {
