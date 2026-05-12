@@ -44,7 +44,7 @@ const products = [
     name:"Demon Slayer Poster",
     price:49,
     category:"poster",
-    image:"Image/Demon Slayer Poster.jpg"
+    image:"Saisho-Kara-Store/Demon Slayer Poster.jpg"
   },
 
   {
